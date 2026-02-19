@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patra Travel - Bus Fleet</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f4f7f6; color: #333; }
+        header { background: #d32f2f; color: white; padding: 40px 20px; text-align: center; }
+        
+        .container { padding: 40px 10%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        
+        .bus-card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: 0.3s; }
+        .bus-card:hover { transform: scale(1.03); }
+        
+        .bus-card img { width: 100%; height: 200px; object-fit: cover; }
+        
+        .details { padding: 20px; }
+        .details h3 { margin: 0 0 10px; color: #d32f2f; }
+        .tag { background: #eee; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem; display: inline-block; margin-bottom: 10px; }
+        .book-btn { display: block; width: 100%; padding: 10px; background: #d32f2f; color: white; border: none; border-radius: 5px; cursor: pointer; text-align: center; text-decoration: none; font-weight: bold; }
+        
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Patra Travel Agency</h1>
+        <p>Your Comfort, Our Priority - Explore Our Fleet</p>
+    </header>
+
+    <div class="container">
+        <div class="bus-card">
+            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800" alt="Volvo">
+            <div class="details">
+                <span class="tag">Sleeper / AC</span>
+                <h3>Premium Volvo Multi-Axle</h3>
+                <p>Features: WiFi, Charging points, Water bottle, Pillows.</p>
+                <a href="#" class="book-btn">Check Seats</a>
+            </div>
+        </div>
+
+        <div class="bus-card">
+            <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=800" alt="Scania">
+            <div class="details">
+                <span class="tag">Seater / AC</span>
+                <h3>Scania Luxury Coach</h3>
+                <p>Features: Push-back seats, LED TV, Leg rest, GPS tracking.</p>
+                <a href="#" class="book-btn">Check Seats</a>
+            </div>
+        </div>
+
+        <div class="bus-card">
+            <img src="https://images.unsplash.com/photo-1551525212-a1dc18871d4a?auto=format&fit=crop&w=800" alt="Bus">
+            <div class="details">
+                <span class="tag">Semi-Sleeper / Non-AC</span>
+                <h3>Patra Express Seater</h3>
+                <p>Features: Budget friendly, Fast transit, Reading lights.</p>
+                <a href="#" class="book-btn">Check Seats</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Patra Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
